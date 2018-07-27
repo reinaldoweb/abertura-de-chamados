@@ -1,0 +1,45 @@
+/*
+*
+*@Author Reinaldo Santos
+*@version 0.1
+*/
+
+/* ============================layout=====================*/
+
+/*-- Seção Serviços--*/
+.fundo{
+
+	background-image: url(imagem/hospital-dois-de-julho-1.jpg);
+	background-repeat: no-repeat;
+    background-position:;
+    background-attachment: fixed;
+	
+}
+
+
+
+#servicos{
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#inputform{
+	width: 100%;
+}
+
+
+
+.rodape{
+	background: #5cb85c;
+	padding: 50px 0 20px 0;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+.top-nav{
+	padding: 15 0 0 0;
+}

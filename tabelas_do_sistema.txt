@@ -1,0 +1,42 @@
+tab_unidade
+id_unidade
+nome_unidade
+
+tab_setor
+id_setor
+nome_setor
+
+tab_usuarios
+id_user
+nome_user
+id_unidade -Foreign Key
+telefone_user
+id_setor - Foreign Key
+
+
+tab_chamado
+id_chamado
+titulo_chamado
+conteudo_chamado
+id_user - Foreign Key
+id_unidade - Foreign Key
+id_setor - Foreign Key
+data_chamado;
+
+
+tab_chamado_solucao
+id_solucao
+id_chamado - Foreign Key
+id_tecnico
+id_unidade
+conteudo_solucao
+data_solucao
+
+
+tab_tecnico
+id_tecnico
+nome_tecnico
+login_tecnico
+senha_tecnico
+telefone_tecnico
+id_unidade - Foreign Key
